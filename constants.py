@@ -13,7 +13,7 @@ LIB_FONTS_DIR = 'rpi-rgb-led-matrix/fonts'
 FONTS_DIR = 'assets/fonts'
 
 # ERGAST F1 API
-BASE_URL = 'https://ergast.com/api/f1/current'
+BASE_URL = 'https://api.jolpi.ca/ergast/f1/current/'
 CONSTRUCTORS_URL = f'{BASE_URL}/constructors.json'
 DRIVERS_URL = f'{BASE_URL}/drivers.json'
 CONSTRUCTOR_STANDINGS_URL = f'{BASE_URL}/constructorStandings.json'
